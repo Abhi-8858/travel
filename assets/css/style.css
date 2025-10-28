@@ -1046,3 +1046,7 @@ body {
 main {
   margin-top: 70px;        /* same as header height */
 }
+@media (max-width: 600px) {
+  .site-header { height: 56px; }
+  main { margin-top: 56px; }
+}
