@@ -1031,3 +1031,18 @@ body {
   .about .container { grid-template-columns: 0.7fr 1fr; }
 
 }
+.header
+{
+   position: fixed;
+    top: 0;
+  left: 0;
+  right: 0;
+         
+ 
+  z-index: 1000;           /* upar dikhne ke liye */
+ 
+
+}
+main {
+  margin-top: 70px;        /* same as header height */
+}
